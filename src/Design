@@ -1,0 +1,19 @@
+Linear Equation Class
+
+Instance Variables:
+    private int x-one - This variable represents the first x variable
+    private int y-one - This variable represents the first y variable
+    private int x-two - this represents the second x variable
+    private int y-two - this represents the second y variable
+
+Contructor:
+    // Uses 4 parameters for each corrdinate value 
+    public LinearEquation(int x-one, int y-one, int x-two, int y-two){}
+
+
+
+
+
+
+
+EquationRunner.java
