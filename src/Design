@@ -7,13 +7,71 @@ Instance Variables:
     private int y-two - this represents the second y variable
 
 Contructor:
-    // Uses 4 parameters for each corrdinate value 
-    public LinearEquation(int x-one, int y-one, int x-two, int y-two){}
+    // Uses 4 parameters for each coordinate value
+    public LinearEquation(int x1, int y1, int x2, int y2){}
 
+Methods:
+    public String getCoordinateOne()
+    - This method will return the first coordinate that was input by the user
+    - return String coordinateOne
 
+    public String getCoordinateTwo()
+    - This method will return the second coordinate that was input by the user
+    - return String coordinateTwo
+
+    public String getValues()
+    - This method will use String methods like substrings to isolate the x and y values from the
+      coordinates into their own variable
+    - Since they are still strings, they'll need to be converted to int with Integer parseInt
+
+    public double getSlope()
+    - This method will use the slope formula (y2-y1)/(x2-x1), to find and return the slope of
+      the two coordinates
+    - return double Slope
+
+    public int getIntercept()
+    - This method will return the y-intercept by using the slope formula by plugging in one of the y
+      values and x values with the slope to find b
+    - return int Intercept
+
+    public String getEquation()
+    - this method will return the slope intercept equation y=mx+b
+    - return String slopeEquation
+
+    public double getDistance()
+    - This method will return the distance between the two coordinates
+    - It will subtract the y values, then it would subtract the x values to get the A and B values
+    - Then it will use the equation a^2 + b^2 = c^2 to find the distance
+    - return double Distance
+
+    public String toString()
+    This method will display all the information about the instance including
+    - X and Y coordinates of both inputs by the user
+    - Slope intercept form equation
+    - Slope of line
+    - Y-intercept of line
+    - Distance between points
+
+    public Int thirdCoordinate()
+    - This method will return the y value when the third x value in input
+
+    public String finalCoordinate()
+    - This method will create a string that combines the first third value and new y value and format it
+      in parenthesis
+    - return coordinate
 
 
 
 
 
 EquationRunner.java
+
+Add scanner class
+add format for decimal points
+create variables for coordinate1, coordinate2, xValue
+
+Step 1 - Ask user for first coordinate
+Step 2 - Ask use for second coordinate
+Step 3 - Use toString method to print all the information (coordinates, slope, intercept, distance)
+Step 4 - ask for third x value
+Step 5 - Print the new coordinate
