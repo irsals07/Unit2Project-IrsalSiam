@@ -8,7 +8,7 @@ Instance Variables:
 
 Contructor:
     // Uses 4 parameters for each coordinate value
-    public LinearEquation(int x1, int y1, int x2, int y2){}
+    public LinearEquation(coordinate1, coordinate2){}
 
 Methods:
     public String getCoordinateOne()
