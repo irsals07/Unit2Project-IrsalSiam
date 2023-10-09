@@ -29,6 +29,9 @@ Methods:
       the two coordinates
     - return double Slope
 
+    public String fractionSlope()
+    - Will convert the slope into a fraction and return as a string
+
     public int getIntercept()
     - This method will return the y-intercept by using the slope formula by plugging in one of the y
       values and x values with the slope to find b
@@ -52,13 +55,11 @@ Methods:
     - Y-intercept of line
     - Distance between points
 
-    public Int thirdCoordinate()
-    - This method will return the y value when the third x value in input
-
-    public String finalCoordinate()
-    - This method will create a string that combines the first third value and new y value and format it
-      in parenthesis
-    - return coordinate
+    public String getValue(double xThree)
+    - Takes in int value for the third x
+    - applies the x value into the equation
+    - finds y value
+    - returns coordinates
 
 
 
