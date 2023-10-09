@@ -18,7 +18,14 @@ public class Main {
         String secondCoordinate = coord2;
 
         LinearEquation data = new LinearEquation(firstCoordinate, secondCoordinate);
-        System.out.print(data.toString());
+        System.out.println(data.toString());
+
+        System.out.print("Enter a third x-value: ");
+        String coord3 = s.nextLine();
+        int thirdCoordinate = Integer.parseInt(coord3);
+
+        LinearEquation data2 = new LinearEquation(firstCoordinate, secondCoordinate);
+        System.out.println("Solved coordinate point is:" + data2.getValue(thirdCoordinate));
     }
 
 }
